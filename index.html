@@ -4,103 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mondrian Project</title>
-  <style>
-    /* 
-    Write your CSS here 
-    Gap Colour: #000
-    White: #F0F1EC
-    Red: #E72F24
-    Black: #232629
-    Blue: #004592
-    Yellow: #F9D01E
-
-    For dimensions, see dimensions.png image.
-    HINT: Remember you can't change the properties of grid lines.
-    But grid lines are transparent!
-    */
-
-    body{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin-bottom: 200px;
-      margin-top: 200px;
-    }
-
-    .container{
-      height: 746px;
-      width: 748px;
-      display: grid;
-      background-color: black;
-      grid-template-rows: 414px 130px 155px 20px;
-      grid-template-columns: 320px 198px 153px 50px;
-      gap: 9px;
-    }
-
-    .item{
-      background-color: white;
-    }
-
-    .red{
-      background-color: #E72F24;
-    }
-
-    .white1{
-      background-color:  #F0F1EC;
-      grid-column: span 3;
-    }
-
-    .white2{
-      background-color:  #F0F1EC;
-      grid-row: span 2;
-    }
-
-    .white3{
-      grid-area: 2/2/4/4; 
-      background-color:  #F0F1EC;
-    }
-
-    .blue{
-      background-color: #004592;
-    }
-
-    .white4{
-      background-color: #F0F1EC;
-      grid-area: 3/4/5/5;
-    }
-
-    .white5{
-      background-color: #F0F1EC;
-    } 
-
-    .yellow{
-      background-color: #F9D01E;
-    }
-
-    .black{
-      background-color: #232629;
-    }
-
-  </style>
+  <title>TinDog</title>
 </head>
 
 <body>
-  <!-- Write your HTML here -->
 
-  <div class="container">
-    <div class="red item"></div>
-    <div class="white1 item"></div>
-    <div class="white2 item"></div>
-    <div class="white3 item"></div>
-    <div class="blue item"></div>
-    <div class="white4 item"></div>
-    <div class="white5 item"></div>
-    <div class="yellow item"></div>
-    <div class="black item"></div>
-    
-  </div>
+  <!-- Title -->
+  <section id="title">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/iphone.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Features -->
+  <section id="features">
+
+  </section>
+  <!-- Testimonial -->
+  <section id="testimonial">
+
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+
+  </section>
+  <!-- Footer -->
+  <section id="footer">
+
+  </section>
 </body>
 
 </html>
